@@ -46,4 +46,13 @@ RSpec.describe Post, type: :model do
       expect { post.send(:decrement_author_posts_counter) }.to change { user.reload.posts_counter }.by(-1)
     end
   end
+
+  describe 'validations' do
+    let(:post) { Post.new }
+
+    it 'likescounter should be greater than or equal to 0' do
+      post.likescounter = 0
+      expect(post).to_not be_valid
+    end
+  end
 end
