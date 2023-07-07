@@ -131,6 +131,18 @@ rspec spec/filename.rb
 
 ## 👥 Authors <a name="authors"></a>
 
+👤 **Lengushuru Charles**
+
+- GitHub: [@lengushuru](https://github.com/lengushuru)
+- Twitter: [@lengushuru](https://twitter.com/lengush)
+- LinkedIn: [Lengushuru Charles](https://linkedin.com/in/lengushuru)
+
+ 👤 **Okpah Igbo**
+
+- GitHub: [@david30-maker](https://github.com/david30-maker)
+- Twitter: [@davidigbo1](https://twitter.com/davidigbo1)
+- LinkedIn: [davidigbo/](https://www.linkedin.com/in/davidigbo/)
+
 👤 **Taiwo Enoch**
 
 - GitHub: [@TaiwoEnoch](https://github.com/TaiwoEnoch)
