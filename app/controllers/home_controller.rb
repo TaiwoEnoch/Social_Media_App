@@ -4,7 +4,7 @@ class HomeController < ApplicationController
       redirect_to root_path
     else
       @user = User.new
-      render 'new'
+      redirect_to new_user_registration_path
     end
   end
 end
