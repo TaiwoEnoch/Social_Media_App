@@ -65,7 +65,7 @@
 ## Key Features <a name="key-features"></a>
 
 - Users functionality
-- Comments section
+- Comments Section
 - Like section
 - Post section
 
