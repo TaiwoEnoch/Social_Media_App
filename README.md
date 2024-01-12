@@ -80,7 +80,7 @@
 
 ### Prerequisites
 
-In order to run this project you need:
+To run this project you need:
 
 - A Computer (MAC or PC)
 - Code editor (VSCode,Atom etc...)
