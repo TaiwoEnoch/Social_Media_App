@@ -32,7 +32,7 @@
 
 # 📖 [Social Media App] <a name="about-project"></a>
 
-> ## The **Social Media App** project 'BlogApp' app is a Ruby on Rails based that allows Users to make a comment on posts, like the posts and posts as well.
+> ## The **Social Media App** project 'BlogApp' app is a Ruby on Rails based that allows Users to make a comments on posts, like the posts and posts as well.
 
 ## 🛠 Built With <a name="built-with"></a>
 
