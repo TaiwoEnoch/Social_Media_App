@@ -83,8 +83,8 @@
 To run this project you need:
 
 - A Computer (MAC or PC)
-- Code editor (VSCode,Atom etc...)
-- A browser (Chrome,Mozilla,Safari etc...)
+- Code editor (VSCode, Atom, etc...)
+- A browser (Chrome, Mozilla, Safari, etc...)
 - Version Control System (Git and Github)
 - Rails installed: To run a Rails project, users must have Rails installed on their system. You can include the minimum required version of Rails needed to run the project.
 
