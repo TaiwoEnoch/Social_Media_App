@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-<h1> <b>Rail-blog-app</b> <hr/>
+<h1> <b>Rails-blog-app</b> <hr/>
 
 </div>
 
