@@ -1,12 +1,16 @@
 <%= stylesheet_link_tag('user-show')%>
 
 <div id="user-details">
-  <div class="user-description">
-    <div class="img-div">
-    <%= image_tag(@user.photo, class: "img") %>
-    </div>
-    <div class="user-name">
-      <h2><%= @user.name %></h2>
+<div class="user-description">
+  <div class="img-div">
+    <% if @user.photo.present? %>
+      <%= image_tag(@user.photo, class: "profile_img") %>
+    <% else %>
+      <p>No profile image available.</p>
+    <% end %>
+  </div>
+  <div class="user-name">
+    <h2><%= @user.name %></h2>
       <h6>Number of posts: <%= @user.posts_counter %></h6>
     </div>
   </div>

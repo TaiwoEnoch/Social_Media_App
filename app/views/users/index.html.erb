@@ -1,18 +1,30 @@
 <%= stylesheet_link_tag('user-index')%>
 
 <div id="user-display">
+<% if @users.blank? %>
+  <p>There are not any users currently in the system.</p>
+<% else %>
+  <h1>All users</h1>
+  <main>
+    <ul class="users_list">
+      <% @users.each do |user| %>
+        <li class="list_item">
+            <a class="link" href="/users/<%= user.id %>">
+              <div class="photo">
+                <% if user.photo.present? %>
+                  <%= image_tag user.photo, class: "profile_img" %>
+                <% else %>
+                  <%= image_tag 'https://www.pngkey.com/png/detail/233-2332677_image-500580-placeholder-transparent.png', class: "profile_img" %>
+                <% end %>
+              </div>
+              <div class="user_name">
+                <h3><%= user.name %></h3>
+                <p>Number of posts: <%= user.posts.count %></p>
+              </div>
+             </a>
+            </li>
+      <% end %>
+    </ul>
+  </main>
+<% end %>
 
-  <% @users.each do |user| %>
-    <a href="/users/<%= user.id %>" class="user-link">
-    <div class="image-user">
-      <div class="post-img">
-         <%= image_tag(user.photo, class: "img") %>
-      </div>
-      <div class="post">
-        <h2><%= user.name %></h2>
-        <p>Number of posts: <%= user.posts_counter %></p>
-      </div>
-      </div>
-    </a>
-  <% end %>
-</div>
